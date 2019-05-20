@@ -11,7 +11,7 @@ if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='z'))
     }
 else
 {
-    printf("Consonent");}}
+    printf("Consonant");}}
 else
 {
     printf("Invalid");
