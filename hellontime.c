@@ -8,7 +8,8 @@ int main()
    {
         for(i=0;i<a;i++)
        {
-       printf("Hello \n");
+       printf("Hello");
+        printf("\n");
       }
    }
    else
