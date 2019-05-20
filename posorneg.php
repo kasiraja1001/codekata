@@ -10,18 +10,14 @@ Check Output <input type="submit" value="check">
 $num=$_POST['n'];
 if($num>0)
 {
-echo $num. "  is positive number";
+echo $num. " Positive";
 }
 elseif($num<0)
 {
-echo $num. " is negative number";
+echo $num. " Negative";
 }
 elseif($num==0)
 {
-echo $num. " it is zero";
-}
-else
-{
-echo $num.  "  is invalid number";
+echo $num. " zero";
 }
 ?>
