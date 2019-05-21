@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n,r,sum=0;temp;
+    int n,r,sum=0,temp;
     scanf("%d",&n);
     temp=n;
     while(n>0)
@@ -11,7 +11,8 @@ int main()
         sum=sum*10+r;
         n=n/10;
     }
-    if(temp==n)
+    n=temp;
+    if(n==sum)
     {
         printf("Yes");
     }
