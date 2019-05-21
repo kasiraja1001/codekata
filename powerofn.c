@@ -2,12 +2,15 @@
 
 int main()
 {
-   int i,k,n,sum=1;
-   scanf("%d%d",&k,&n);
-   for(i=1;i<=k;i++)
-   {
-       sum=sum*n;
-   }
-   
-   printf("%d",sum);
+    int n,k,sum=1;
+    scanf("%d%d",&n,&k);
+    while(k!=0)
+    {
+        
+        sum=sum*n;
+        k--;
+    }
+    printf("%d",sum);
+
+    return 0;
 }
