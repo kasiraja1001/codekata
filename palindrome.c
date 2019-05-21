@@ -14,10 +14,10 @@ int main()
     n=temp;
     if(n==sum)
     {
-        printf("Yes");
+        printf("yes");
     }
     else
     {
-        printf("No");
+        printf("no");
     }
 }
