@@ -1,23 +1,19 @@
-#include <stdio.h>
-
-int main()
+#include<stdio.h>
+void main()
 {
-    int n,r,sum=0,temp;
-    scanf("%d",&n);
-    temp=n;
-    while(n>0)
-    {
-        r=n%10;
-        sum=sum*10+r;
-        n=n/10;
-    }
-    n=temp;
-    if(n==sum)
-    {
-        printf("yes");
-    }
-    else
-    {
-        printf("no");
-    }
+int n,i,count=0;
+scanf("%d",&n);
+for(i=1;i<=n;i++){
+if(n%i==0){
+count++;
+}
+}
+if(count==2)
+{
+printf("yes");
+}
+else
+{
+printf("no");
+}
 }
