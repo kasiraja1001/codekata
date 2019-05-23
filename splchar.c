@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int main()
+ void main()
 {
     char s[15000];
-    int i=0,n,c=0;
+    int i=0,c=0;
     gets(s);
     while(s[i]!='\0')
     {
@@ -12,6 +12,6 @@ int main()
     c++;
     i++;
     }
-    }
+  
     printf("%d",c);
 }
